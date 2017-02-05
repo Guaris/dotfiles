@@ -41,3 +41,8 @@
 ;;;Melpa round two
 (add-to-list 'package-archives
 	     '("melpa" . "https://melpa.org/packages/") t)
+;;; org-mode config
+;;Enable Org-mode
+(require 'org)
+;;Make org-mode work with files ending in.org
+(add-to-list 'auto-mode-alist '("\\.org$" . org-mode))
