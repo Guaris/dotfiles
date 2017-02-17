@@ -10,14 +10,16 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(ansi-color-faces-vector
+   [default default default italic underline success warning error])
  '(ansi-color-names-vector
    ["#242424" "#e5786d" "#95e454" "#cae682" "#8ac6f2" "#333366" "#ccaa8f" "#f6f3e8"])
- '(custom-enabled-themes (quote (wombat)))
+ '(custom-enabled-themes (quote (manoj-dark)))
  '(custom-safe-themes
    (quote
     ("9f9d163bff5db858e1049a9ab1661e81c32ddc723b81910305119bc9deee1f30" default)))
  '(inhibit-startup-screen t)
- '(package-selected-packages (quote (sx ## flycheck neotree))))
+ '(package-selected-packages (quote (w3 sx ## flycheck neotree))))
  '(package-archives
    (quote
     (("gnu". "http://elpa.gnu.org/packages/")
@@ -46,3 +48,8 @@
 (require 'org)
 ;;Make org-mode work with files ending in.org
 (add-to-list 'auto-mode-alist '("\\.org$" . org-mode))
+
+
+;;;orgmode clock persisting for clock-ins
+(setq org-clock-persist 'history)
+(org-clock-persistence-insinuate)
