@@ -1,0 +1,13 @@
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Content-Type: application/json
+Date: Fri, 10 Feb 2017 18:57:55 GMT
+Set-Cookie: PHPSESSID=bim6rmarjjc4rh7a6rfkdndt74; path=/
+Set-Cookie: laravel_session=eyJpdiI6IkV2bWlwNGxMQWpkZXJYXC84RFlTVk53PT0iLCJ2YWx1ZSI6Ilk5d2lIMVwvK0tIb09JSTRLckY0U1piNHpoNmRVTDAwREluQWFzVWZoempKR2RsWkVPM1hiK0FHdHF6VWlpc0VSeWFYdGNVSmFBZkZDb3FNNmVRVEdXQT09IiwibWFjIjoiODc1ZDU4YmZjOWZhYjgzN2MwYmM1NTdhYWU5ZDFhZjYyMmMxNjczZDdjYzA4MDZmN2QyYWNjYTgzNzUxZGE3YSJ9; path=/; httponly
+Pragma: no-cache
+Strict-Transport-Security: max-age=31536000;
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cache-Control: max-age=86400, public
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Server: nginx
+X-Robots-Tag: noindex

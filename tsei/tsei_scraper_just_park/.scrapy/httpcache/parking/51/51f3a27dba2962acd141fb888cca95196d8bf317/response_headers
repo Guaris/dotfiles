@@ -1,0 +1,4 @@
+Server: nginx
+Location: https://www.justpark.com/search/bounding-box/?end_date=12%20Mar%202017&end_time=18%3A00%3A00&nw_lat=90.079355565750576&nw_lng=-180.20887790869142&se_lat=-90.07071130221634&se_lng=180.8676150913086076&start_date=10%20Feb%202017&start_time=08%3A00%3A00
+Content-Type: text/html
+Date: Fri, 10 Feb 2017 18:29:23 GMT
